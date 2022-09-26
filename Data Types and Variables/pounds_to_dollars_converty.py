@@ -1,7 +1,7 @@
-from forex_python.coverter import CurrencyRates
+from forex_python.converter import CurrencyRates
 
 amount = int(input('Amount in GBP: '))
-c = CurrencyRates
+c = CurrencyRates()
 current_rate = c.get_rate('GBP','USD')
 my_result = amount*current_rate
 
