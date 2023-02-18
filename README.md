@@ -13,16 +13,34 @@ Link to his GitHub repo for the course - [Link](https://github.com/zahariev-webb
 - [Additional resources](#additional-resources)
 
 ## Python:
-
-- [Basic Syntax, Conditional Statements and Loops](https://github.com/zahariev-webbersof/SoftUni-Fundamentals-2022-06/tree/main/basic_syntax_conditional_statements_and_loops)
-- [Data Types and Variables, Booleans, Int, Float, Strigns](https://github.com/zahariev-webbersof/SoftUni-Fundamentals-2022-06/tree/main/data_types_and_variables)
-- [List basics - List Definition and Usage, Storing Data,  Creating Lists, Accessing Elements, List Manipulations, Looping Through Lists, Searching in Lists](https://github.com/zahariev-webbersof/SoftUni-Fundamentals-2022-06/tree/main/lists_basics)
-- [Functions - Functions Overview, Declaring and Invoking Functions, Return Values, Lambda Functions, Parameters vs Arguments](https://github.com/zahariev-webbersof/SoftUni-Fundamentals-2022-06/tree/main/functions)
-- [Lists Advanced - List Comprehension, List Methods, Advanced Methods, Advanced List Manipulations, The set() Method](https://github.com/zahariev-webbersof/SoftUni-Fundamentals-2022-06/tree/main/list_advanced)
-- [Objects and Classes - Object-Oriented Programming (OOP), Classes, Objects, Class Attributes and Instance Methods](https://github.com/zahariev-webbersof/SoftUni-Fundamentals-2022-06/tree/main/objects_and_classes)
-- [Dictionaries - Dictionary Definition, Keys and Values, Iterating Through Dictionaries, Existence in Dictionaries, Dictionary Methods](https://github.com/zahariev-webbersof/SoftUni-Fundamentals-2022-06/tree/main/dictionaries)
-- [Text Processing - String Definition, String Manipulation, String Methods](https://github.com/zahariev-webbersof/SoftUni-Fundamentals-2022-06/tree/main/text_processing)
-- [Regular Expressions - Definition, Syntax, RegEx in Python, RegEx Methods](https://github.com/zahariev-webbersof/SoftUni-Fundamentals-2022-06/tree/main/regex)
+# Main Topics
+- Basic Syntax, Conditional Statements and Loops
+    - [Lab](https://github.com/petarivanov95/SoftUni-Python-Programming-Fundamentals-2022/tree/main/05.%20Basic%20Syntax%20-%20Lab)
+    - [Exercise](https://github.com/petarivanov95/SoftUni-Python-Programming-Fundamentals-2022/tree/main/06.%20Basic%20Syntax%20-%20Exercise)
+- Data Types and Variables, Booleans, Int, Float, Strigns
+    - [Lab](https://github.com/petarivanov95/SoftUni-Python-Programming-Fundamentals-2022/tree/main/08.%20Data%20Types%20and%20Variables%20-%20Lab)
+    - [Exercise](https://github.com/petarivanov95/SoftUni-Python-Programming-Fundamentals-2022/tree/main/09.%20Data%20Types%20and%20Variables%20-%20Exercise)
+- List basics - List Definition and Usage, Storing Data,  Creating Lists, Accessing Elements, List Manipulations, Looping Through Lists, Searching in Lists
+    - [Lab](https://github.com/petarivanov95/SoftUni-Python-Programming-Fundamentals-2022/tree/main/11.%20Lists%20Basics%20-%20Lab)
+    - [Exercise](https://github.com/petarivanov95/SoftUni-Python-Programming-Fundamentals-2022/tree/main/12.%20Lists%20Basics%20-%20Exercise)
+- Functions - Functions Overview, Declaring and Invoking Functions, Return Values, Lambda Functions, Parameters vs Arguments
+    - [Lab](https://github.com/petarivanov95/SoftUni-Python-Programming-Fundamentals-2022/tree/main/14.%20Functions%20-%20Lab)
+    - [Exercise](https://github.com/petarivanov95/SoftUni-Python-Programming-Fundamentals-2022/tree/main/15.%20Functions%20-%20Exercise)
+- Lists Advanced - List Comprehension, List Methods, Advanced Methods, Advanced List Manipulations, The set() Method
+    - [Lab](https://github.com/petarivanov95/SoftUni-Python-Programming-Fundamentals-2022/tree/main/17.%20Lists%20Advanced%20-%20Lab)
+    - [Exercise](https://github.com/petarivanov95/SoftUni-Python-Programming-Fundamentals-2022/tree/main/18.%20Lists%20Advanced%20-%20Exercise)
+- Objects and Classes - Object-Oriented Programming (OOP), Classes, Objects, Class Attributes and Instance Methods
+    - [Lab](https://github.com/petarivanov95/SoftUni-Python-Programming-Fundamentals-2022/tree/main/21.%20Objects%20and%20Classes%20-%20Lab)
+    - [Exercise](https://github.com/petarivanov95/SoftUni-Python-Programming-Fundamentals-2022/tree/main/22.%20Objects%20and%20Classes%20-%20Exercise)
+- Dictionaries - Dictionary Definition, Keys and Values, Iterating Through Dictionaries, Existence in Dictionaries, Dictionary Methods
+    - [Lab](https://github.com/petarivanov95/SoftUni-Python-Programming-Fundamentals-2022/tree/main/24.%20Dictionaries%20-%20Lab)
+    - [Exercise](https://github.com/petarivanov95/SoftUni-Python-Programming-Fundamentals-2022/tree/main/25.%20Dictionaries%20-%20Exercise)
+- Text Processing - String Definition, String Manipulation, String Methods
+    - [Lab](https://github.com/petarivanov95/SoftUni-Python-Programming-Fundamentals-2022/tree/main/26.%20Text%20Processing%20-%20Lab)
+    - [Exercise](https://github.com/petarivanov95/SoftUni-Python-Programming-Fundamentals-2022/tree/main/28.%20Tex%20Processing%20-%20Exercise)
+- Regular Expressions - Definition, Syntax, RegEx in Python, RegEx Methods
+    - [Lab](https://github.com/petarivanov95/SoftUni-Python-Programming-Fundamentals-2022/tree/main/30.%20Regular%20Expressions%20-%20Lab)
+    - [Exercise](https://github.com/petarivanov95/SoftUni-Python-Programming-Fundamentals-2022/tree/main/31.%20Regular%20Expressions%20-%20Exercise)
 
 ## Additional resources
 
