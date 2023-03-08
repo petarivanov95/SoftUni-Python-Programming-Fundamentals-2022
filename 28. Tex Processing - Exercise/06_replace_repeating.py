@@ -10,3 +10,5 @@ for idx, char in enumerate(sequence):
         else:
             unique.append(char)
 print("".join(unique))
+
+
