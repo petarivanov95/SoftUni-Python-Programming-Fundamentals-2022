@@ -19,8 +19,10 @@ first_string, second_string = input().split()
 total_sum = 0
 
 if len(first_string) == len(second_string):
+    
     for idx, chr in enumerate(first_string):
         total_sum += ord(first_string[idx]) * ord(second_string[idx])
+
 elif len(first_string) < len(second_string):
     for idx, chr in enumerate(first_string):
         total_sum += ord(first_string[idx]) * ord(second_string[idx])
