@@ -1,10 +1,10 @@
 age = int(input())
 
 if age <= 14:
-    print('drink toddy')
+    print("drink toddy")
 elif age <= 17:
-    print('drink coke')
+    print("drink coke")
 elif age <= 21:
-    print('drink beer')
+    print("drink beer")
 elif age > 21:
-    print('drink whisky')
+    print("drink whisky")

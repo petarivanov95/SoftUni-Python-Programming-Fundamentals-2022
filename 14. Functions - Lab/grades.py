@@ -1,17 +1,17 @@
 grade = float(input())
 
+
 def grader(n):
     if 2.00 <= n < 3.00:
-        return 'Fail'
+        return "Fail"
     elif 3.00 <= n < 3.50:
-        return 'Poor'
+        return "Poor"
     elif 3.50 < n < 4.50:
-        return 'Good'
+        return "Good"
     elif 4.50 <= n < 5.50:
-        return 'Very Good'
+        return "Very Good"
     elif 5.50 <= n < 6.00:
-        return 'Excellent'
-
+        return "Excellent"
 
 
 print(grader(grade))

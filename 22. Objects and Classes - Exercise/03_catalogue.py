@@ -1,16 +1,15 @@
 class Catalogue:
-    def __init__(self,name:str) -> None:
+    def __init__(self, name: str) -> None:
         self.name = name
         self.products = []
 
     def add_product(self, product_name):
         self.products.append(product_name)
 
-    def get_by_letter(self, first_letter:str):
+    def get_by_letter(self, first_letter: str):
         first_letter_list = [x for x in self.products if x[0] == first_letter]
         return first_letter_list
 
-        
     def __repr__(self):
         items_sorted = sorted(self.products)
         items_str = "\n".join(str(item) for item in items_sorted)

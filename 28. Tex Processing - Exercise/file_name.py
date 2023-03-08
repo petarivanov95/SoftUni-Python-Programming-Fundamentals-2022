@@ -1,6 +1,6 @@
-path = input().split('\\')
+path = input().split("\\")
 
-file_name, file_ext = path[-1].split('.')
+file_name, file_ext = path[-1].split(".")
 # idx = file_full.find(".")
 # file_name = file_full[:idx]
 # file_ext = file_full[idx:]

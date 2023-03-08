@@ -1,5 +1,5 @@
-a = [i for i in range(1,11+1)]
-b = [y for y in range(1,11+1)]
+a = [i for i in range(1, 11 + 1)]
+b = [y for y in range(1, 11 + 1)]
 cards = input()
 lst = cards.split()
 cards_list = [x.split() for x in lst]

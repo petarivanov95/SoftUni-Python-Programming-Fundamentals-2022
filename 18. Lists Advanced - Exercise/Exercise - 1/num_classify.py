@@ -1,4 +1,4 @@
-nums_all = input().split(', ')
+nums_all = input().split(", ")
 positives = [item for item in nums_all if int(item) >= 0]
 negatives = [item for item in nums_all if int(item) < 0]
 evens = [item for item in nums_all if int(item) % 2 == 0]

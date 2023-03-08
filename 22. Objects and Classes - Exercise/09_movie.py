@@ -9,7 +9,7 @@ class Movie:
 
     def __repr__(self):
         return f"Movie name: {self.name}; Movie director: {self.director}. Total watched movies: {Movie.__watched_movies}"
-   
+
     def change_name(self, new_name: str):
         self.name = new_name
 
@@ -18,7 +18,7 @@ class Movie:
 
     def watch(self):
         if not self.watched:
-            Movie.__watched_movies +=1
+            Movie.__watched_movies += 1
             self.watched = True
 
 

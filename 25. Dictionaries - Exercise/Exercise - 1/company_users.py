@@ -1,10 +1,10 @@
 companies = {}
 
 while True:
-    user_input =  input()
-    if user_input == 'End':
+    user_input = input()
+    if user_input == "End":
         break
-    company_name, company_id = user_input.split(' -> ')
+    company_name, company_id = user_input.split(" -> ")
     if company_name not in companies:
         companies[company_name] = [company_id]
     else:
@@ -13,7 +13,7 @@ while True:
         else:
             companies[company_name].append(company_id)
 
-for company,id in companies.items():
+for company, id in companies.items():
     print(company)
     for user in companies[company]:
-        print(f'-- {user}')
+        print(f"-- {user}")

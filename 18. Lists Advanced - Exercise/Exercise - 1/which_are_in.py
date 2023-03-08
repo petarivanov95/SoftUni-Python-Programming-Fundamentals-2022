@@ -10,8 +10,8 @@
 
 # print(list(in_both))
 
-seq1 = input().split(', ')
-seq2 = input().split(', ')
+seq1 = input().split(", ")
+seq2 = input().split(", ")
 
 in_both = []
 

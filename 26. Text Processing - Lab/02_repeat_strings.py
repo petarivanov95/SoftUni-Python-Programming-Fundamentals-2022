@@ -10,6 +10,6 @@
 
 # method 2
 
-input_strings = input().split(' ')
-resulting_strings = [word*len(word) for word in input_strings]
-print(''.join(resulting_strings))
+input_strings = input().split(" ")
+resulting_strings = [word * len(word) for word in input_strings]
+print("".join(resulting_strings))

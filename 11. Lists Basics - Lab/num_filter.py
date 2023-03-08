@@ -9,23 +9,23 @@ for x in range(number):
     all.append(new_int)
 
 command = input()
-if command == 'even':
+if command == "even":
     for x in range(len(all)):
-        if all[x] % 2==0 or all[x]==0:
+        if all[x] % 2 == 0 or all[x] == 0:
             evens.append(all[x])
     print(evens)
-elif command == 'odd':
+elif command == "odd":
     for x in range(len(all)):
         if all[x] % 2 != 0:
             evens.append(all[x])
-    print(odds)            
-elif command == 'positive':
+    print(odds)
+elif command == "positive":
     for x in range(len(all)):
-        if all[x] >=0:
+        if all[x] >= 0:
             positives.append(all[x])
-    print(positives)            
-elif command == 'negative':
+    print(positives)
+elif command == "negative":
     for x in range(len(all)):
         if all[x] < 0:
-            negatives.append(all[x])    
+            negatives.append(all[x])
     print(negatives)

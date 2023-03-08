@@ -6,11 +6,11 @@ lst_caps = []
 #     my_lst.append(x)
 
 
-# for x in range(len(my_lst)): 
+# for x in range(len(my_lst)):
 #     if my_lst[x].isupper():
 #         lst_caps.append(x)
 
-for id,item in enumerate(my_lst):
+for id, item in enumerate(my_lst):
     if item.isupper():
         lst_caps.append(id)
 

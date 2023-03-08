@@ -1,7 +1,9 @@
-my_stock_list = input().split(' ')
+my_stock_list = input().split(" ")
 lst_len = len(my_stock_list)
 
-my_stock_dict = {my_stock_list[x]:int(my_stock_list[x+1]) for x in range(lst_len) if x%2==0}
+my_stock_dict = {
+    my_stock_list[x]: int(my_stock_list[x + 1]) for x in range(lst_len) if x % 2 == 0
+}
 
 # Create the stock dictionary from user input
 # my_stock_dict = {}
@@ -11,7 +13,7 @@ my_stock_dict = {my_stock_list[x]:int(my_stock_list[x+1]) for x in range(lst_len
 #     my_stock_dict[key] = value
 
 
-checker = input().split(' ')
+checker = input().split(" ")
 
 for item in range(len(checker)):
     product = checker[item]

@@ -1,5 +1,4 @@
 class Vehicle:
-
     def __init__(self, type: str, model: str, price: int, owner=None):
         self.type = type
         self.model = model
@@ -11,9 +10,8 @@ class Vehicle:
             return f"{self.model} {self.type} is owned by: {self.owner}"
         return f"{self.model} {self.type} is on sale: {self.price}"
 
-
     def buy(self, money: int, owner: str):
-        
+
         if money >= self.price and self.owner is None:
             change = money - self.price
             self.owner = owner
@@ -28,7 +26,6 @@ class Vehicle:
             self.owner = None
         else:
             return "Vehicle has no owner"
-
 
 
 vehicle_type = "car"

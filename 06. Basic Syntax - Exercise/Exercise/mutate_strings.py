@@ -11,7 +11,7 @@
 #         my_list.append(temp)
 #     # my_set.add(temp)
 # #     # print(my_set)
- 
+
 
 # str_1 = input()
 # str_2 = input()
@@ -31,7 +31,7 @@ str_1 = input()
 str_2 = input()
 last_str = str_1
 for x in range(len(str_1)):
-    temp = str_2[0:x+1] + str_1[x+1:]
+    temp = str_2[0 : x + 1] + str_1[x + 1 :]
     if temp == last_str:
         continue
     else:
@@ -39,4 +39,3 @@ for x in range(len(str_1)):
         last_str = temp
     # my_set.add(temp)
     # print(my_set)
-

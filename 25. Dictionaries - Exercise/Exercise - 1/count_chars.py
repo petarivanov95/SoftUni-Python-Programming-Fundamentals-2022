@@ -10,6 +10,6 @@ for x in input_str:
         my_dict[x] = 1
 
 for char in my_dict:
-    if char == ' ':
+    if char == " ":
         break
     print(f"{char} -> {my_dict[char]}")

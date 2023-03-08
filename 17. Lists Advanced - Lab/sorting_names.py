@@ -1,6 +1,6 @@
-all_names = input().split(', ')
+all_names = input().split(", ")
 
-my_func = lambda x: (-len(x),x)
+my_func = lambda x: (-len(x), x)
 sorted_list = sorted(all_names, key=my_func)
 
 

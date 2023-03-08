@@ -1,7 +1,7 @@
 text = input()
-cipher = ''
+cipher = ""
 
 for letter in text:
-    cipher += chr(ord(letter)+3)
+    cipher += chr(ord(letter) + 3)
 
 print(cipher)

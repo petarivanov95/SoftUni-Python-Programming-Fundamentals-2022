@@ -1,6 +1,6 @@
-code_words = ['coding','dog','cat','movie']
+code_words = ["coding", "dog", "cat", "movie"]
 counter = 0
-command = '1'
+command = "1"
 while command != "END":
     command = input()
     if command.lower() in code_words:
@@ -10,6 +10,6 @@ while command != "END":
             counter += 1
 
 if counter > 5:
-    print('You need extra sleep')
+    print("You need extra sleep")
 else:
     print(counter)

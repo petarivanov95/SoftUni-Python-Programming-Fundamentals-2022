@@ -10,5 +10,5 @@ for x in range(num_lines):
 
 print(positives)
 print(negatives)
-print(f'Count of positives: {len(positives)}')
-print(f'Sum of negatives: {sum(negatives)}')
+print(f"Count of positives: {len(positives)}")
+print(f"Sum of negatives: {sum(negatives)}")

@@ -19,11 +19,10 @@
 #     command = input()
 
 
-
 # method 3
 command = input()
 
-while command != 'end':
-    reversed_word = ''.join(list(command)[::-1])
+while command != "end":
+    reversed_word = "".join(list(command)[::-1])
     print(f"{command} = {reversed_word}")
     command = input()

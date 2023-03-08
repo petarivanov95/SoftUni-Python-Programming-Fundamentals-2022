@@ -1,33 +1,33 @@
 # # trinkets = {
 # # "Shadowmourne":[250, 'shards'],
-# # "Valanyr": [250,'fragments'], 
+# # "Valanyr": [250,'fragments'],
 # # 'Dragonwrath' :[250, 'motes']
 # # }
 
-current = {'shards':0,'fragments':0, 'motes':0}
+current = {"shards": 0, "fragments": 0, "motes": 0}
 obtained = False
 received_items = input().split()
 
 while not obtained:
-    for index in range(0,len(received_items),2):
+    for index in range(0, len(received_items), 2):
         value = int(received_items[index])
-        key = received_items[index+1].lower()
+        key = received_items[index + 1].lower()
 
         if key not in current.keys():
             current[key] = 0
         current[key] += value
 
-        if current['shards'] >= 250:
-            print(f'Shadowmourne obtained!')
-            current['shards'] -= 250
+        if current["shards"] >= 250:
+            print(f"Shadowmourne obtained!")
+            current["shards"] -= 250
             obtained = True
-        elif current['fragments'] >= 250:
-            print(f'Valanyr obtained!')
-            current['fragments'] -= 250
+        elif current["fragments"] >= 250:
+            print(f"Valanyr obtained!")
+            current["fragments"] -= 250
             obtained = True
-        elif current['motes'] >= 250:
-            print(f'Dragonwrath obtained!')
-            current['motes'] -= 250
+        elif current["motes"] >= 250:
+            print(f"Dragonwrath obtained!")
+            current["motes"] -= 250
             obtained = True
 
         if obtained:
@@ -35,10 +35,10 @@ while not obtained:
     if obtained:
         break
     received_items = input().split()
-    
 
-for key,value in current.items():
-    print(f"{key}: {value}") 
+
+for key, value in current.items():
+    print(f"{key}: {value}")
 
 # items = {"shards": 0, "fragments": 0, "motes": 0}
 # current_items = input().split()

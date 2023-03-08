@@ -5,5 +5,5 @@ my_list = []
 for x in num:
     my_list.append(x)
 
-my_list.sort(reverse=True) # sort all the digits in descending order
-print(''.join(my_list)) # joining the ordered digits yields the largest num possible
+my_list.sort(reverse=True)  # sort all the digits in descending order
+print("".join(my_list))  # joining the ordered digits yields the largest num possible

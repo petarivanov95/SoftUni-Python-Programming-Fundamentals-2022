@@ -1,8 +1,8 @@
-input_lst = [int(x) for x in input().split(', ')]
+input_lst = [int(x) for x in input().split(", ")]
 
 new_lst = []
 zeros = []
-for id,x in enumerate(input_lst):
+for id, x in enumerate(input_lst):
     if x == 0:
         zeros.append(x)
     else:

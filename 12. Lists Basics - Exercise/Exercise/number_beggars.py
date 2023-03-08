@@ -1,4 +1,4 @@
-input_1 = input().split(', ')
+input_1 = input().split(", ")
 beggars = int(input())
 
 print(sum())

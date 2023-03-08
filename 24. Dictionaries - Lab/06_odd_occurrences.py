@@ -1,4 +1,4 @@
-sequence = input().split(' ')
+sequence = input().split(" ")
 my_dict = {}
 
 for x in range(len(sequence)):
@@ -10,4 +10,4 @@ for x in range(len(sequence)):
 
 for word in my_dict:
     if not my_dict[word] % 2 == 0:
-        print(word.lower(),end=' ')
+        print(word.lower(), end=" ")

@@ -1,6 +1,6 @@
 name = input()
 
-if name == 'Johnny':
-    print('Hello, my love!')
+if name == "Johnny":
+    print("Hello, my love!")
 else:
-    print(f'Hello, {name}!')
+    print(f"Hello, {name}!")
