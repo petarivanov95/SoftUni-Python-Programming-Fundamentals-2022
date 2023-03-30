@@ -18,8 +18,19 @@ while True:
             else:
                 players_info[player] = {position: skill}
         else:
-            # duel here
-            pass
+            player_one, player_two = command.split(" vs ")
+            if player_one in players_info.keys() and player_two in players_info.keys():
+                for position in players_info[player_one].keys():
+                    if position in players_info[player_two].keys():
+                        if sum(players_info[player_one].values()) > sum(players_info[player_two].values()):
+                            del players_info[player_two]
+                            break
+                        elif sum(players_info[player_one].values()) < sum(players_info[player_two].values()):
+                            del players_info[player_one]
+                            break
+                        else:
+                            continue
 
     command = input()
+
 print(players_info)
