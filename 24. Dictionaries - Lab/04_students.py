@@ -14,9 +14,9 @@ while True:
         name, id_student, courses = command.split(":")
         students[id_student] = name, courses
 
-for name in students:
-    if course in students.get(name):
-        print(f"{students.get(name)[0]} - {name}")
+for idx in students:
+    if course in students.get(idx):
+        print(f"{students.get(idx)[0]} - {idx}")
 
 
 # Option 2
