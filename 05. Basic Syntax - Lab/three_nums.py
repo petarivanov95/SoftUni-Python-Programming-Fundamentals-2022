@@ -9,4 +9,7 @@ my_list.append(num_2)
 my_list.append(num_3)
 
 sorted_list = sorted(my_list)
-print(sorted_list[-1])
+print(my_list)
+my_list.sort(reverse=True)
+print(my_list)
+print(sorted_list)
